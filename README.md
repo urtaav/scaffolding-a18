@@ -25,3 +25,88 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Scaffolding 
+```bash
+📦src
+ ┣ 📂app
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂data-access
+ ┃ ┃ ┃ ┗ 📜auth.service.ts
+ ┃ ┃ ┗ 📂features
+ ┃ ┃ ┃ ┣ 📂log-in
+ ┃ ┃ ┃ ┃ ┣ 📜log-in.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜log-in.component.scss
+ ┃ ┃ ┃ ┃ ┗ 📜log-in.component.ts
+ ┃ ┃ ┃ ┣ 📂sign-up
+ ┃ ┃ ┃ ┃ ┣ 📜sign-up.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜sign-up.component.scss
+ ┃ ┃ ┃ ┃ ┗ 📜sign-up.component.ts
+ ┃ ┃ ┃ ┣ 📜auth.routes.ts
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂core
+ ┃ ┃ ┗ 📂guards
+ ┃ ┃ ┃ ┗ 📜auth.guards.ts
+ ┃ ┣ 📂dashboard
+ ┃ ┃ ┣ 📜dashboard.component.html
+ ┃ ┃ ┣ 📜dashboard.component.scss
+ ┃ ┃ ┣ 📜dashboard.component.spec.ts
+ ┃ ┃ ┗ 📜dashboard.component.ts
+ ┃ ┣ 📂products
+ ┃ ┃ ┣ 📂data-access
+ ┃ ┃ ┃ ┗ 📜product-store.service.ts
+ ┃ ┃ ┣ 📂features
+ ┃ ┃ ┃ ┣ 📂product-detail
+ ┃ ┃ ┃ ┃ ┣ 📜product-detail.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜product-detail.component.scss
+ ┃ ┃ ┃ ┃ ┣ 📜product-detail.component.spec.ts
+ ┃ ┃ ┃ ┃ ┗ 📜product-detail.component.ts
+ ┃ ┃ ┃ ┣ 📂product-list
+ ┃ ┃ ┃ ┃ ┣ 📜product-list.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜product-list.component.scss
+ ┃ ┃ ┃ ┃ ┣ 📜product-list.component.spec.ts
+ ┃ ┃ ┃ ┃ ┗ 📜product-list.component.ts
+ ┃ ┃ ┃ ┗ 📜product.routes.ts
+ ┃ ┃ ┣ 📂ui
+ ┃ ┃ ┃ ┗ 📂product-card
+ ┃ ┃ ┃ ┃ ┗ 📜product-card.component.ts
+ ┃ ┃ ┣ 📜products.component.html
+ ┃ ┃ ┣ 📜products.component.scss
+ ┃ ┃ ┣ 📜products.component.spec.ts
+ ┃ ┃ ┗ 📜products.component.ts
+ ┃ ┣ 📂shared
+ ┃ ┃ ┣ 📂data-access
+ ┃ ┃ ┃ ┗ 📜storage.service.ts
+ ┃ ┃ ┗ 📂ui
+ ┃ ┃ ┃ ┣ 📂button
+ ┃ ┃ ┃ ┃ ┣ 📜button.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜button.component.scss
+ ┃ ┃ ┃ ┃ ┣ 📜button.component.spec.ts
+ ┃ ┃ ┃ ┃ ┗ 📜button.component.ts
+ ┃ ┃ ┃ ┗ 📂layout
+ ┃ ┃ ┃ ┃ ┣ 📂footer
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜footer.component.html
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜footer.component.scss
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜footer.component.spec.ts
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜footer.component.ts
+ ┃ ┃ ┃ ┃ ┣ 📂navbar
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜navbar.component.html
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜navbar.component.scss
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜navbar.component.spec.ts
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜navbar.component.ts
+ ┃ ┃ ┃ ┃ ┣ 📜layout.component.html
+ ┃ ┃ ┃ ┃ ┣ 📜layout.component.scss
+ ┃ ┃ ┃ ┃ ┣ 📜layout.component.spec.ts
+ ┃ ┃ ┃ ┃ ┗ 📜layout.component.ts
+ ┃ ┣ 📜app.component.html
+ ┃ ┣ 📜app.component.scss
+ ┃ ┣ 📜app.component.spec.ts
+ ┃ ┣ 📜app.component.ts
+ ┃ ┣ 📜app.config.ts
+ ┃ ┗ 📜app.routes.ts
+ ┣ 📜index.html
+ ┣ 📜main.ts
+ ┗ 📜styles.scss
+
+```
